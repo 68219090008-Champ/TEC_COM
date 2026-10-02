@@ -53,12 +53,35 @@ nav a:hover{background:#0d47a1}
 footer{margin-top:50px;background:#1565c0;color:white;text-align:center;padding:20px}
 
 @media(max-width:768px){
-    .hero{flex-direction:column;justify-content:center;text-align:center;height:auto;padding:30px}
-    .hero-image{margin-top:25px;width:100%;max-width:320px}
-    nav ul{flex-direction:column}
-    nav li{border-bottom:1px solid rgba(255,255,255,.2)}
-    .creator-content{flex-direction:column}
-    .creator-info{min-width:0;width:100%;text-align:center}
+    .hero{
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    height:auto;
+    padding:30px;
+    }
+
+    .hero-image{
+        margin-top:25px;
+        width:100%;
+        max-width:320px;
+    }
+
+    nav ul{
+    flex-direction:column;
+    }
+
+    nav li{
+    border-bottom:1px solid rgba(255,255,255,.2);
+    }
+
+    .creator-content{
+    flex-direction:column;
+    }
+
+    .creator-info{
+    min-width:0;width:100%;text-align:center;
+    }
 }
 </style>
 </head>
@@ -87,15 +110,11 @@ footer{margin-top:50px;background:#1565c0;color:white;text-align:center;padding:
 
 <div class="container">
     <div class="card">
-        <h2>ยินดีต้อนรับ</h2>
-        <p>เว็บไซต์นี้จัดทำขึ้นเพื่อใช้สำหรับทดลองการสร้าง <strong>ระบบสมัครสมาชิก (Member Registration System)</strong> ด้วยภาษา PHP</p>
-        <p>ระบบจะใช้ฐานข้อมูล <strong>MySQL</strong> สำหรับจัดเก็บข้อมูลสมาชิก และใช้ <strong>PHP</strong> ในการประมวลผลข้อมูล</p>
-        <p>การเชื่อมต่อฐานข้อมูลจะใช้ไลบรารี <strong>mysqli</strong> และรับข้อมูลผ่าน <strong>HTML Form</strong> เพื่อฝึกการพัฒนาเว็บไซต์แบบพื้นฐาน</p>
-        <p>เมนูด้านบนสามารถพัฒนาเพิ่มเติมเพื่อสร้างหน้าสมัครสมาชิก และหน้าดูรายชื่อสมาชิกได้ในขั้นตอนถัดไป</p>
+        
     </div>
 </div>
 
-<section class="creator-section">
+<footer>
     <div class="creator-card">
         <h2><i class="fa-solid fa-user-pen"></i> ข้อมูลผู้จัดทำ</h2>
         <div class="creator-content">
@@ -112,11 +131,6 @@ footer{margin-top:50px;background:#1565c0;color:white;text-align:center;padding:
             </div>
         </div>
     </div>
-</section>
-
-<footer>
-    Copyright © 2026<br>
-    Trang Technical College
 </footer>
 
 </body>
